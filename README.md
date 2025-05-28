@@ -50,6 +50,8 @@ Data is stored locally in the browser (using `localStorage`), enabling persisten
 
 ## 📁 File Structure
 
+
+
 plan-with-love-app/
 ├── public/ # Public assets like index.html
 ├── src/
