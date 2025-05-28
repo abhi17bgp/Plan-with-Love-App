@@ -6,20 +6,18 @@
 
 ## Project Description
 
-Plan With Love is a beautiful and user-friendly **React** application designed to help users organize and plan special events or moments with their loved ones. The app allows adding, editing, and deleting personalized plans with smooth navigation powered by React Router.
-
-Data is stored locally in the browser (using `localStorage`), enabling persistence without the need for backend services or user authentication.
+Plan With Love is a simple **React** application created for learning purposes. It provides a clean and minimal UI to display plans stored locally in the browser. Users can delete plans and refresh the list. The app focuses on practicing React fundamentals such as component structure, state management, localStorage handling, and basic UI updates without any backend or complex features.
 
 ---
 
 ## ✨ Features
 
-- 💌 Add, edit, and delete personalized plans/events
-- 🔄 Smooth navigation with React Router for different views (Home, Add Plan, Edit Plan)
-- 🗂️ Uses browser `localStorage` for saving and loading plans persistently
-- 🎨 Clean and modern UI styled using CSS Modules
-- 📱 Responsive design suitable for all screen sizes
-- 🎨 Uses React Icons for intuitive button and UI icons
+- 🗂️ View plans stored locally in the browser  
+- ❌ Delete plans to remove unwanted entries  
+- 🔄 Refresh the list to see the latest stored plans  
+- 🎨 Clean and minimal UI styled using CSS Modules  
+- 📱 Responsive design for all screen sizes  
+- 🎨 Uses React Icons for simple and intuitive icons
 
 ---
 
@@ -28,7 +26,6 @@ Data is stored locally in the browser (using `localStorage`), enabling persisten
 | Technology     | Purpose                                  |
 |----------------|------------------------------------------|
 | React          | Frontend UI and component architecture   |
-| React Router   | Client-side routing and navigation       |
 | CSS Modules    | Scoped and modular CSS styling            |
 | React Icons    | Icons used throughout the app             |
 | localStorage   | Data persistence in the browser          |
@@ -38,40 +35,37 @@ Data is stored locally in the browser (using `localStorage`), enabling persisten
 
 ## 📦 How It Works
 
-1. On load, the app fetches stored plans from `localStorage`.
-2. User navigates between pages:
-   - **Home:** View all saved plans.
-   - **Add Plan:** Create a new plan with title and description.
-   - **Edit Plan:** Update existing plan details.
-3. User inputs are saved to `localStorage` to persist data.
-4. Navigation is handled seamlessly with React Router.
+1. On load, the app fetches plans stored in `localStorage`.  
+2. Plans are displayed in a list with options to delete each item.  
+3. Users can refresh the page or list to see updated data.  
+4. All data operations update `localStorage` accordingly.  
 
 ---
 
 ## 📁 File Structure
 
-
-
 plan-with-love-app/
-├── public/ # Public assets like index.html
+├── public/               # Public assets like index.html
 ├── src/
-│ ├── components/ # Reusable React components
-│ ├── pages/ # Page components for routing (Home, Add, Edit)
-│ ├── styles/ # CSS Modules for styling
-│ ├── App.js # Main React app and routes setup
-│ └── index.js # ReactDOM render
-├── package.json # Project metadata and dependencies
-└── README.md # Project documentation
+│   ├── components/       # Reusable React components
+│   ├── pages/            # Page components for routing (Home, etc.)
+│   ├── styles/           # CSS Modules for styling
+│   ├── App.js            # Main React app and routes setup
+│   └── index.js          # ReactDOM render entry point
+├── package.json          # Project metadata and dependencies
+└── README.md             # Project documentation
+
 
 ---
 
 ## 🔧 Setup Instructions
 
-1. Clone the repository:
+1. Clone the repository:  
    ```bash
    git clone https://github.com/abhi17bgp/Plan-with-Love-App.git
 2. Navigate into the project directory: cd Plan-with-Love-App
-3. Install dependencies: npm install
-4.Start the development server: npm start
-5.Open http://localhost:3000 to view the app in your browser.
-   
+3. Install dependencies:npm install
+4. Start the development server: npm start
+5. Open http://localhost:3000 in your browser to view the app.
+
+
